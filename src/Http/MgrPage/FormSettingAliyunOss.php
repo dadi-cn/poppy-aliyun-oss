@@ -1,9 +1,9 @@
 <?php
 
-namespace Poppy\AliyunOss\Http\Forms\Settings;
+namespace Poppy\AliyunOss\Http\MgrPage;
 
 use Poppy\Framework\Validation\Rule;
-use Poppy\System\Http\Forms\Settings\FormSettingBase;
+use Poppy\MgrPage\Classes\Form\FormSettingBase;
 
 class FormSettingAliyunOss extends FormSettingBase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Poppy\AliyunOss\Services;
+namespace Poppy\AliyunOss\Hooks\System;
 
 use Poppy\AliyunOss\Classes\Provider\OssDefaultUploadProvider;
-use Poppy\AliyunOss\Http\Forms\Settings\FormSettingAliyunOss;
+use Poppy\AliyunOss\Http\MgrPage\FormSettingAliyunOss;
 use Poppy\Core\Services\Contracts\ServiceArray;
 
 class UploadTypeAliyun implements ServiceArray
