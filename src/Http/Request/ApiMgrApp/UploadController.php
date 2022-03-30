@@ -1,6 +1,6 @@
 <?php
 
-namespace Poppy\AliyunOss\Http\Request\Api\Backend;
+namespace Poppy\AliyunOss\Http\Request\ApiMgrApp;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
@@ -26,7 +26,7 @@ class UploadController extends BackendController
 
     /**
      * 上传配置
-     * @return array|JsonResponse|RedirectResponse|Response|Resp
+     * @return JsonResponse|RedirectResponse|Resp|Response
      */
     public function store()
     {
